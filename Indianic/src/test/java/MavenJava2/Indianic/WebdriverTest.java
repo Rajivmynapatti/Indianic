@@ -19,6 +19,8 @@ public class WebdriverTest {
 		login.ValidLogin("tomsmith", "SuperSecretPassword!");
 		
 		Thread.sleep(2000);
+		
+		
 	}
 
 	@AfterTest
