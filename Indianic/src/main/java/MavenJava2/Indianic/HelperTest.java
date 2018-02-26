@@ -15,6 +15,8 @@ package MavenJava2.Indianic;
 		 	public static  WebDriver browser (String EnterBrowserName, String EnterUrlLink) {
 			
 			if(EnterBrowserName.equalsIgnoreCase("firefox")) {
+				
+				System.setProperty("webdriver.gecko.driver", "D:\\geckodriver\\geckodriver.exe");
 				driver=new FirefoxDriver();
 			}
 			else if(EnterBrowserName.equalsIgnoreCase("Chrome")) {
