@@ -18,8 +18,9 @@ public class WebdriverTest {
 		
 		login.ValidLogin("tomsmith", "SuperSecretPassword!");
 		
-		Thread.sleep(2000);
+		System.out.println("User logged in successfully");
 		
+		Thread.sleep(2000);
 		
 	}
 
@@ -29,6 +30,8 @@ public class WebdriverTest {
 		
 		driver.quit();
 		
+		
+		System.out.println("Browser Terminated successfully");
 		
 	}
 }
