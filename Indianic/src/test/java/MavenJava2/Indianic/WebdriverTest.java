@@ -12,7 +12,7 @@ public class WebdriverTest {
 	@Test(priority=1)
 	public void setup() throws InterruptedException {
 		
-		driver=HelperTest.browser("firefox", "https://the-internet.herokuapp.com/login");
+		driver=HelperTest.browser("chrome", "https://the-internet.herokuapp.com/login");
 		
 		PageFactoryTest login=PageFactory.initElements(driver, PageFactoryTest.class);
 		
