@@ -12,7 +12,7 @@ package MavenJava2.Indianic;
 	public class HelperTest {
 
 		static WebDriver driver;
-		 	public static  WebDriver browser (String EnterBrowserName, String EnterUrlLink) {
+		 	public static  WebDriver BrowserUrl (String EnterBrowserName, String EnterUrlLink) {
 			
 			if(EnterBrowserName.equalsIgnoreCase("firefox")) {
 				
